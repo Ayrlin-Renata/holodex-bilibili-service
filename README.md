@@ -6,7 +6,7 @@ there is no official, general auth for bilibili, but the well-established state 
 
 `login_service.py` generates a QR code, which can be scanned with a bilibili app to authenticate. the auth token is then stored and automatically refreshed by the system. no further user interaction is necessary. 
 
-tokens are stored in `.env`
+tokens and channel ids (TRACKED_UIDS) are stored in `.env`
 
 ## usage 
 `main.py` starts scheduled polling of the livestream status as well as the feed posts to detect stream reservations. 
