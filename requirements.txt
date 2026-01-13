@@ -1,0 +1,7 @@
+bilibili-api-python
+curl_cffi
+python-dotenv
+qrcode
+qrcode-terminal
+
+Pillow

@@ -1,0 +1,17 @@
+# Secrets
+.env
+cookies.json
+login_qrcode.png
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+env/
+.venv/
+.pytest_cache/
+
+# Outputs
+stream_events.jsonl
