@@ -1,6 +1,11 @@
 # holodex-bilibili-service
 proof of concept bilibili livestream status tracker created with the intention of enabling holodex to track bilibili livestreams.
 
+## requirements
+in order to run this, you need
+- bilibili account
+- channel uids for tracked channels
+
 ## auth
 there is no official, general auth for bilibili, but the well-established state of other apps and services which interface with bilibili is to authenticate using a regular user account. it is not officially supported, but it is unofficially recognized as the way it is done. libraries such as [bilibili_api](https://github.com/Nemo2011/bilibili-api), which is used, and applications are made based on this approach, so it is well supported by the community.
 
